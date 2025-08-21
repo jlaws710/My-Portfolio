@@ -12,7 +12,9 @@ const Skills = () => {
           <div className='w-full grid grid-row sm:grid-row-4 gap-4 text-center py-8'>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <p className='my-4'>Java</p>
+                  <p className='my-4'>Kotlin</p>
                   <p className='my-4'>Javascript</p>
+                  <p className='my-4'>Go</p>
                   <p className='my-4'>Python</p>
                   <p className='my-4'>Spring Boot</p>
                   <p className='my-4'>React</p>
