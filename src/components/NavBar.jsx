@@ -40,12 +40,12 @@ const Navbar = () => {
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
           <li className='w-40 h-14 flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-            <a href="https://linkedin.com" target='_blank' className='flex justify-between items-center w-full text-gray-300 px-4'>
+            <a href="https://linkedin.com" target='_blank' rel="noreferrer" className='flex justify-between items-center w-full text-gray-300 px-4'>
               LinkedIn <FaLinkedin size={30} />
             </a>
           </li>
           <li className='w-40 h-14 flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-            <a href="https://github.com/jlaws710" target='_blank' className='flex justify-between items-center w-full text-gray-300 px-4'>
+            <a href="https://github.com/jlaws710" target='_blank' rel="noreferrer" className='flex justify-between items-center w-full text-gray-300 px-4'>
               GitHub <FaGithub size={30} />
             </a>
           </li>

@@ -54,7 +54,7 @@ const Works = () => {
               <span key={idx} className='text-lg font-bold text-white tracking-wider'>{proj.name}</span>
               <p key={idx} className='text-center'>{proj.description}</p>
               <div className='pt-8 text-center'>
-                <a href={proj.link} target='_blank'><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Repo</button></a>
+                <a href={proj.link} target='_blank' rel="noreferrer"><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Repo</button></a>
               </div>
             </div>
           </div>
